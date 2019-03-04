@@ -1,0 +1,130 @@
+.body-bg{
+    background: rgb(251,123,0);
+    background: linear-gradient(180deg, rgba(251,123,0,1) 8%, rgba(251,200,0,1) 26%, rgba(251,200,0,1) 51%, rgba(251,123,0,1) 68%, rgba(253,65,0,1) 83%, rgba(255,10,0,1) 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, .goto{
+    background-color: rgb(251, 123, 0);
+} 
+
+#redditlogo{
+    height:50px;
+}
+
+.form-check-label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-title{
+    line-height: 1;
+}
+
+.card-text{
+    line-height: 1;
+}
+
+
+.bg1{
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 22%, rgba(102,85,48,1) 87%);
+}
+
+.bg2{
+    background: rgb(131,58,180);
+    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.bg3{
+    background: rgb(195,34,60);
+    background: linear-gradient(180deg, rgba(195,34,60,1) 9%, rgba(65,48,102,1) 87%);
+}
+
+.bg4{
+    background: rgb(195,163,34);
+    background: linear-gradient(180deg, rgba(195,163,34,1) 31%, rgba(48,93,102,1) 87%);
+}
+
+.bg5{
+    background: rgb(174,34,195);
+    background: linear-gradient(180deg, rgba(174,34,195,1) 31%, rgba(61,48,102,1) 87%);
+}
+
+.bg6{
+    background: rgb(195,34,92);
+    background: linear-gradient(180deg, rgba(195,34,92,1) 31%, rgba(102,48,48,1) 87%);
+}
+
+.bg7{
+    background: rgb(195,34,119);
+    background: linear-gradient(180deg, rgba(195,34,119,1) 9%, rgba(78,102,48,1) 87%);
+}
+
+.bg8{
+    background: rgb(104,195,34);
+background: linear-gradient(180deg, rgba(104,195,34,1) 36%, rgba(63,111,216,1) 87%);
+}
+
+.bg9{
+    background: rgb(195,161,34);
+    background: linear-gradient(180deg, rgba(195,161,34,1) 49%, rgba(216,73,63,1) 87%);
+}
+
+.bg10{
+    background: rgb(63,165,51);
+    background: linear-gradient(180deg, rgba(63,165,51,1) 0%, rgba(216,73,63,1) 87%);
+}
+
+.bg11{
+    background: rgb(165,51,82);
+    background: linear-gradient(180deg, rgba(165,51,82,1) 13%, rgba(116,120,194,1) 55%);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        margin: 0 5%;
+    }
+    .card{
+        margin-top:35px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1080px){
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1201px) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+
+
